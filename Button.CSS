@@ -1,1 +1,39 @@
+.text-box1 {
+    margin-left: 45vw;
+   margin-top: 4vh;
+   width: 1000px;
+   height: 15px;
+   position:absolute;
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 50px;
+    display: inline-block;
+    border-radius: 90px;
+    position:absolute;
+}
+.btn-white {
+    background-color: #4D4D4D;
+    color: #BCBCBC;
+}
+
+.btn1::after {
+    content: "";
+    display: inline-block;
+    height: 80%;
+    width: 95%;
+    border-radius: 80px;
+     position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .2s;
+}
+
+.btn-white1::after {
+    background-color: #fff;
+}
+
 
